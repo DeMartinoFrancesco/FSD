@@ -1,0 +1,7 @@
+<p class ="title">{{ title }}</p>
+<p *ngFor="let name of listOfNames"[ngClass]="namesClasses">{{ name }}</p>
+
+
+
+
+<p *ngIf="listOfNames.length == 0 ">non ci sono nomi!</p>
